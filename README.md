@@ -82,7 +82,7 @@ is the [K-function][k-function].
 To use in Observable,
 
 ```javascript
-FLOAT32_GLAISHER = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@umd/browser.js' )
+FLOAT32_GLAISHER = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -94,7 +94,7 @@ var FLOAT32_GLAISHER = require( 'path/to/vendor/umd/constants-float32-glaisher-k
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -132,7 +132,7 @@ var bool = ( FLOAT32_GLAISHER === 1.2824270725250244 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
