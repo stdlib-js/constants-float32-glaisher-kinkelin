@@ -80,7 +80,7 @@ is the [K-function][k-function].
 ## Usage
 
 ```javascript
-import FLOAT32_GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@deno/mod.js';
+import FLOAT32_GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@v0.1.1-deno/mod.js';
 ```
 
 #### FLOAT32_GLAISHER
@@ -105,7 +105,7 @@ var bool = ( FLOAT32_GLAISHER === 1.2824270725250244 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT32_GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@deno/mod.js';
+import FLOAT32_GLAISHER from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-glaisher-kinkelin@v0.1.1-deno/mod.js';
 
 console.log( 'Glaisher\'s constant: %d', FLOAT32_GLAISHER );
 // => 'Glaisher\'s constant: 1.2824270725250244'
